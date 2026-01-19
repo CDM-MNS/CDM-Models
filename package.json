@@ -1,0 +1,15 @@
+{
+  "name": "@cdm/models",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepare": "npm run build" 
+  },
+  "dependencies": {
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1"
+  }
+}
