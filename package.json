@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "npx shx rm -rf dist && tsc",
     "prepare": "npm run build"
   },
   "dependencies": {
