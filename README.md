@@ -8,4 +8,5 @@ npm install cdm-models
 
 ```
 npm version patch
+npm publish
 ```
