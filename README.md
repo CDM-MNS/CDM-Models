@@ -1,5 +1,11 @@
 # Install ou Update
 
 ```
-npm install git+https://github.com/cdm-mns/cdm-models.git
+npm install cdm-models
+```
+
+# Update NPM
+
+```
+npm version patch
 ```
